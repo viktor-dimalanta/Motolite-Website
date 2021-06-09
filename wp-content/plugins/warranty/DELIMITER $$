@@ -1,0 +1,141 @@
+DELIMITER $$
+CREATE PROCEDURE prepare_data()
+BEGIN
+  DECLARE i INT DEFAULT 100;
+
+  WHILE i < 1000000 DO
+    INSERT INTO `wp_customer` (id, fname, lname, mobile, email, company, address, telephone, 	ownership_type) values ('', 'popo', 'ka', 1213, 'e@t.com', 'tdfg', 'sawmill', 44566, 'Owner');
+		INSERT INTO `wp_battery` (id,brand,purchase_date,brand_type_size,serial_no,sales_invoice) VALUES('','enduro','7/28/2017','small',rand() * 3333,'3242');
+INSERT INTO `wp_distributor` (id,distributor_name,distributor_address,outlet_name,outlet_address) VALUES('','VIC','pantranco','panddesal','jaan lang');
+INSERT INTO `wp_vehicle` (id,vehicle_make,vehicle_model,vehicle_year,vehicle_plate,vehicle_application) VALUES('','toyota','aavnxa','1992','123weds','ret');
+INSERT INTO `wp_promo` (id,promo_name,active_promo,promo_duration) VALUES('','surf','polo','1year');
+INSERT INTO `wp_warranty`(id,customer_id,battery_id,promo_id,vehicle_id,distributor_id,last_update,registrant) VALUES ('',LAST_INSERT_ID(),LAST_INSERT_ID(),LAST_INSERT_ID(),LAST_INSERT_ID(),LAST_INSERT_ID(),'','');
+    SET i = i + 1;
+  END WHILE;
+END$$
+DELIMITER ;
+
+CALL prepare_data();
+
+
+ALTER TABLE `wp_warranty` AUTO_INCREMENT = 1;
+ALTER TABLE `wp_vehicle` AUTO_INCREMENT = 1;
+ALTER TABLE `wp_battery` AUTO_INCREMENT = 1;
+ALTER TABLE `wp_promo` AUTO_INCREMENT = 1;
+ALTER TABLE `wp_customer` AUTO_INCREMENT = 1;
+ALTER TABLE `wp_distributor` AUTO_INCREMENT = 1;
+
+
+SELECT STR_TO_DATE('February 01 2014', '%M %d %Y')
+
+http://localhost/Motolite/wp-admin/options-general.php?page=adminimize%2Fadminimize.php
+
+DB 'owr'
+
+#backtoblog > div
+
+
+
+if($_REQUEST['start_date_js']) {
+    $purchase_date_start = $_REQUEST['start_date_js'];
+    $end_date_js = $_REQUEST['end_date_js'];
+    echo $purchase_date_start;
+    echo $end_date_js;
+ 
+
+        //$purchase_date_start = "June 1, 2017";
+        //$purchase_date_end = "June 20, 2017";
+
+
+        $start_date= date('Y-m-d', strtotime($purchase_date_start));
+        $end_date= date('Y-m-d', strtotime($purchase_date_end));
+
+
+
+        $rows = $wpdb->get_results("SELECT * FROM wp_warranty LEFT JOIN wp_battery ON wp_warranty.id = wp_battery.id LEFT JOIN wp_customer ON wp_warranty.id = wp_customer.id LEFT JOIN wp_vehicle ON wp_warranty.id = wp_vehicle.id WHERE  wp_battery.purchase_date BETWEEN '$purchase_date_start' AND '$end_date_js' ");
+
+
+
+echo "<table border='1'>
+<tr>
+<th>Rank</th>
+<th>owner ID</th>
+<th>Total</th>
+</tr>";
+$i = 0;
+foreach ($rows as $row) { 
+$i++;
+echo "<tr>";
+echo "<td>"  . $row->fname.  "</td>";
+echo "<td>" . $row->lname . "</td>";
+echo "<td>" . $row->mobile . "</td>";
+  echo "</tr>";
+}
+echo "</table>";
+ }
+
+      $('#warranty_tbl tbody').append("<tr><td>" + start_date_js + "</td><td>" + data.column1 + "</td><td>" + data.start_date_js + "</td></tr>");
+
+
+
+
+
+
+-----
+
+    <?php foreach ($rows as $row) { echo "  <tr style='height: 65px;' class='content' >
+
+                    <td style='font-size: 14px;'>$row->fname;  <td>
+                    <td style='font-size: 14px;'> $row->lname; </td>
+                    <td style='font-size: 14px;'> $row->email; </td>
+                    <td style='font-size: 14px;'>  $row->address; </td>
+                    <td style='font-size: 14px;'>$row->mobile; </td>
+                    <td style='font-size: 14px;'>$row->telephone; </td>
+                    <td style='font-size: 14px;'> $row->vehicle_make; </td>
+                     <td style='font-size: 14px'>$row->vehicle_year; </td>
+                      <td style='font-size: 14px;'> $row->plate_no; </td>
+                      <td style='font-size: 14px;'> $row->serial_no; </td>
+
+                      <td style='font-size: 14px;'>$row->battery_sales; </td>
+                      <td style='font-size: 14px;'> $row->purchase_date;</td>
+                      <td style='font-size: 14px;'> $row->distributor_name; </td>
+                      <td style='font-size: 14px;'> $row->distributor_address; </td>
+                      <td style='font-size: 14px;'> $row->vehicle_application; </td>
+                      <td style='font-size: 14px;'> $row->battery_id; </td>
+                      <td style='font-size: 14px;'> $row->ownership_type; </td>
+
+
+
+
+
+                    </tr>";?>
+    
+     <?php } ?>
+
+
+
+
+http://ran.ge/2009/10/27/howto-create-stream-csv-php/
+
+
+
+
+
+DELIMITER $$
+CREATE PROCEDURE prepare_data()
+BEGIN
+  DECLARE i INT DEFAULT 100;
+
+  WHILE i < 1000000 DO
+    INSERT INTO `customers` (id, fname, lname, mobile, email, company, address, telephone,  ownership_type, created_at , updated_at) values ('', 'popo', 'ka', 1213, 'e@t.com', 'tdfg', 'sawmill', 44566, 'Owner',NOW(),NOW());
+    INSERT INTO `batteries` (id,brand,purchase_date,brand_type_size,serial_no,sales_invoice, created_at , updated_at) VALUES('','enduro','7/28/2017','small',rand() * 3333,'3242',NOW(),NOW());
+INSERT INTO `distributors` (id,distributor_name,distributor_address,outlet_name,outlet_address,created_at , updated_at) VALUES('','VIC','pantranco','panddesal','jaan lang',NOW(),NOW());
+INSERT INTO `vehicles` (id,vehicle_make,vehicle_model,vehicle_year,vehicle_plate,vehicle_application,created_at , updated_at) VALUES('','toyota','aavnxa','1992','123weds','ret',NOW(),NOW());
+INSERT INTO `promos` (id,promo_name,active_promo,promo_duration,created_at , updated_at) VALUES('','surf','polo','1year',NOW(),NOW());
+INSERT INTO `warranties`(id,customer_id,battery_id,promo_id,vehicle_id,distributor_id,last_update,registrant,created_at , updated_at) VALUES ('',LAST_INSERT_ID(),LAST_INSERT_ID(),LAST_INSERT_ID(),LAST_INSERT_ID(),LAST_INSERT_ID(),'','',NOW(),NOW());
+    SET i = i + 1;
+  END WHILE;
+END$$
+DELIMITER ;
+
+CALL prepare_data();

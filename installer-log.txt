@@ -1,0 +1,204 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.22
+* STEP-1 START @ 03:24:59
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.1.9 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9
+DOC ROOT:	C:/xampp/htdocs/Motolite
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/Motolite/installer.php
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20170907_motolite_updated_c3cadce65c187e6e3025170919022326_archive.zip
+SIZE:	19.16MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3954
+    [filename] => C:\xampp\htdocs\Motolite\20170907_motolite_updated_c3cadce65c187e6e3025170919022326_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2017-09-19 03:25:01
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.170919032501.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 03:25:01 - RUNTIME: 2.5328 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 03:25:22
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.26 -- Build Server: 10.1.26
+FILE SIZE:	database.sql (894.55KB) - installer-data.sql (894.55KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/Motolite/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELIMITER' at line 1' - [sql=DELIMITER ;...]
+**ERROR** database error write 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELIMITER' at line 1' - [sql=DELIMITER ...]
+**ERROR** database error write 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELIMITER' at line 1' - [sql=DELIMITER ;...]
+**ERROR** database error write 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DELIMITER' at line 1' - [sql=DELIMITER ...]
+ERRORS FOUND:	4
+TABLES DROPPED:	0
+QUERIES RAN:	305
+
+wp_battery: (23)
+wp_battery_ext: (0)
+wp_battery_masterlist: (0)
+wp_battery_replacement: (1)
+wp_battery_types: (0)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_customer: (23)
+wp_distributor: (23)
+wp_duplicator_packages: (5)
+wp_links: (0)
+wp_module: (0)
+wp_options: (195)
+wp_postmeta: (13)
+wp_posts: (11)
+wp_promo: (23)
+wp_school: (8)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_user_ext: (3)
+wp_user_role: (0)
+wp_usermeta: (138)
+wp_users: (5)
+wp_vehicle: (23)
+wp_warranty: (23)
+wp_warranty_classification: (54)
+wp_wpdatacharts: (0)
+wp_wuno_inventory: (0)
+
+Removed '45' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 0.2865 sec.
+STEP-2 COMPLETE @ 03:25:23 - RUNTIME: 0.3079 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 03:25:25
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_battery~ (23)
+wp_battery_ext^ (0)
+wp_battery_masterlist^ (0)
+wp_battery_replacement~ (1)
+wp_battery_types^ (0)
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_customer~ (23)
+wp_distributor~ (23)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_module^ (0)
+wp_options~ (152)
+wp_postmeta~ (13)
+wp_posts~ (11)
+wp_promo~ (23)
+wp_school~ (8)
+wp_term_relationships~ (1)
+wp_term_taxonomy~ (1)
+wp_termmeta^ (0)
+wp_terms~ (1)
+wp_user_ext~ (3)
+wp_user_role^ (0)
+wp_usermeta~ (138)
+wp_users~ (5)
+wp_vehicle~ (23)
+wp_warranty~ (23)
+wp_warranty_classification~ (54)
+wp_wpdatacharts^ (0)
+wp_wuno_inventory^ (0)
+--------------------------------------
+Search1:	'C:/xampp/htdocs/Motolite' 
+Change1:	'C:/xampp/htdocs/Motolite' 
+Search2:	'C:\/xampp\/htdocs\/Motolite' 
+Change2:	'C:\/xampp\/htdocs\/Motolite' 
+Search3:	'C%3A%2Fxampp%2Fhtdocs%2FMotolite%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2FMotolite%2F' 
+Search4:	'C:\xampp\htdocs\Motolite' 
+Change4:	'C:/xampp/htdocs/Motolite' 
+Search5:	'http://localhost/Motolite' 
+Change5:	'http://localhost/Motolite' 
+Search6:	'http:\/\/localhost\/Motolite' 
+Change6:	'http:\/\/localhost\/Motolite' 
+Search7:	'http%3A%2F%2Flocalhost%2FMotolite' 
+Change7:	'http%3A%2F%2Flocalhost%2FMotolite' 
+Search8:	'https://localhost/Motolite' 
+Change8:	'https://localhost/Motolite' 
+Search9:	'https:\/\/localhost\/Motolite' 
+Change9:	'https:\/\/localhost\/Motolite' 
+Search10:	'https%3A%2F%2Flocalhost%2FMotolite' 
+Change10:	'https%3A%2F%2Flocalhost%2FMotolite' 
+Search11:	'//localhost/Motolite' 
+Change11:	'//localhost/Motolite' 
+Search12:	'\/\/localhost\/Motolite' 
+Change12:	'\/\/localhost\/Motolite' 
+Search13:	'%2F%2Flocalhost%2FMotolite' 
+Change13:	'%2F%2Flocalhost%2FMotolite' 
+SCANNED:	Tables:30 	|	 Rows:527 	|	 Cells:2963 
+UPDATED:	Tables:0 	|	 Rows:1 	|	 Cells:1 
+ERRORS:		0 
+RUNTIME:	0.187900 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 03:25:25 - RUNTIME: 0.2049 sec.
+
+

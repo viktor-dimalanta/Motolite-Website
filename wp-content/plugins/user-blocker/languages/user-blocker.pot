@@ -1,0 +1,1004 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Blocker\n"
+"POT-Creation-Date: 2017-06-14 18:06+0530\n"
+"PO-Revision-Date: 2016-08-26 10:38+0530\n"
+"Last-Translator: \n"
+"Language-Team: solwininfotech <info@solwininfotech.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x:1,2c;_ex;_nx;"
+"esc_attr_e;_n_noop:1,2;esc_attr__;esc_attr_x;esc_html_e;esc_html__;"
+"esc_html_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-SearchPath-0: /wp-content/plugins/user-blocker\n"
+
+#: user-blocker/includes/user_blocker_block_users.php:74
+#: user-blocker/includes/user_blocker_block_users.php:1353
+msgid "You are temporary blocked."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:206
+msgid "Update for user with username: "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:209
+msgid "User with "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:209
+msgid " userid is not exist."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:392
+#: user-blocker/includes/user_blocker_block_users.php:409
+msgid "Blocking time for "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:392
+#: user-blocker/includes/user_blocker_block_users.php:409
+msgid " is successfully updated."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:441
+msgid "Role wise time blocking is successfully added."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:448
+#: user-blocker/includes/user_blocker_block_users.php:1506
+msgid "Please select atleast one role."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:464
+msgid "Username wise time blocking is successfully added."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:470
+#: user-blocker/includes/user_blocker_block_users.php:1527
+msgid "Please select atleast one username."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:479
+msgid "Please add from time for respected to time."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:493
+msgid "Please enter valid time format."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:508
+msgid "Time can't be blank."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:611
+#: user-blocker/includes/user_blocker_block_users.php:618
+#: user-blocker/includes/user_blocker_block_users.php:1049
+#: user-blocker/includes/user_blocker_block_users.php:1050
+#: user-blocker/includes/user_blocker_block_users.php:1051
+#: user-blocker/includes/user_blocker_block_users.php:1052
+#: user-blocker/includes/user_blocker_block_users.php:1260
+#: user-blocker/includes/user_blocker_block_users.php:1320
+#: user-blocker/includes/user_blocker_block_users.php:1329
+#: user-blocker/includes/user_blocker_block_users.php:1640
+#: user-blocker/includes/user_blocker_block_users.php:1794
+#: user-blocker/includes/user_blocker_block_users.php:1975
+#: user-blocker/includes/user_blocker_block_users.php:2310
+#: user-blocker/includes/user_blocker_block_users.php:2466
+#: user-blocker/includes/user_blocker_block_users.php:2610
+#: user-blocker/includes/user_blocker_block_users.php:2611
+#: user-blocker/includes/user_blocker_block_users.php:2612
+#: user-blocker/includes/user_blocker_block_users.php:2613
+#: user-blocker/includes/user_blocker_block_users.php:2670
+#: user-blocker/includes/user_blocker_block_users.php:2680
+#: user-blocker/includes/user_blocker_blocked_users_list.php:159
+#: user-blocker/includes/user_blocker_blocked_users_list.php:164
+#: user-blocker/includes/user_blocker_blocked_users_list.php:551
+#: user-blocker/includes/user_blocker_blocked_users_list.php:881
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1123
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1124
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1125
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1300
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1723
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1952
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1957
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1958
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1959
+#: user-blocker/includes/user_blocker_common_functions.php:423
+#: user-blocker/user_blocker.php:668
+#: user-blocker/user_blocker.php:673
+#: user-blocker/user_blocker.php:707
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:622
+msgid "Block Users By Time"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:626
+#: user-blocker/includes/user_blocker_block_users.php:1647
+#: user-blocker/includes/user_blocker_block_users.php:2317
+msgid "Block User By Time"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:627
+#: user-blocker/includes/user_blocker_block_users.php:1648
+#: user-blocker/includes/user_blocker_block_users.php:2318
+msgid "Block User By Date"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:628
+#: user-blocker/includes/user_blocker_block_users.php:1649
+#: user-blocker/includes/user_blocker_block_users.php:2320
+#: user-blocker/user_blocker.php:53
+msgid "Block User Permanent"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:635
+#: user-blocker/includes/user_blocker_block_users.php:1656
+#: user-blocker/includes/user_blocker_block_users.php:2328
+#: user-blocker/includes/user_blocker_blocked_users_list.php:183
+#: user-blocker/includes/user_blocker_blocked_users_list.php:901
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1320
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1743
+msgid "Select User/Category: "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:637
+#: user-blocker/includes/user_blocker_block_users.php:968
+#: user-blocker/includes/user_blocker_block_users.php:1005
+#: user-blocker/includes/user_blocker_block_users.php:1658
+#: user-blocker/includes/user_blocker_block_users.php:1853
+#: user-blocker/includes/user_blocker_block_users.php:1890
+#: user-blocker/includes/user_blocker_block_users.php:2330
+#: user-blocker/includes/user_blocker_block_users.php:2524
+#: user-blocker/includes/user_blocker_block_users.php:2561
+#: user-blocker/includes/user_blocker_blocked_users_list.php:486
+#: user-blocker/includes/user_blocker_blocked_users_list.php:516
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1046
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1082
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1449
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1484
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1884
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1920
+msgid "Username"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:638
+#: user-blocker/includes/user_blocker_block_users.php:730
+#: user-blocker/includes/user_blocker_block_users.php:739
+#: user-blocker/includes/user_blocker_block_users.php:984
+#: user-blocker/includes/user_blocker_block_users.php:1021
+#: user-blocker/includes/user_blocker_block_users.php:1659
+#: user-blocker/includes/user_blocker_block_users.php:1751
+#: user-blocker/includes/user_blocker_block_users.php:1760
+#: user-blocker/includes/user_blocker_block_users.php:1869
+#: user-blocker/includes/user_blocker_block_users.php:1906
+#: user-blocker/includes/user_blocker_block_users.php:2331
+#: user-blocker/includes/user_blocker_block_users.php:2425
+#: user-blocker/includes/user_blocker_block_users.php:2434
+#: user-blocker/includes/user_blocker_block_users.php:2540
+#: user-blocker/includes/user_blocker_block_users.php:2577
+#: user-blocker/includes/user_blocker_blocked_users_list.php:242
+#: user-blocker/includes/user_blocker_blocked_users_list.php:255
+#: user-blocker/includes/user_blocker_blocked_users_list.php:490
+#: user-blocker/includes/user_blocker_blocked_users_list.php:520
+#: user-blocker/includes/user_blocker_blocked_users_list.php:960
+#: user-blocker/includes/user_blocker_blocked_users_list.php:967
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1062
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1098
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1379
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1385
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1465
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1500
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1805
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1812
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1900
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1936
+msgid "Role"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:655
+#: user-blocker/includes/user_blocker_block_users.php:1676
+#: user-blocker/includes/user_blocker_block_users.php:2348
+#: user-blocker/includes/user_blocker_blocked_users_list.php:196
+#: user-blocker/includes/user_blocker_blocked_users_list.php:914
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1333
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1756
+msgid "Go to the first page"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:656
+#: user-blocker/includes/user_blocker_block_users.php:1677
+#: user-blocker/includes/user_blocker_block_users.php:2349
+#: user-blocker/includes/user_blocker_blocked_users_list.php:197
+#: user-blocker/includes/user_blocker_blocked_users_list.php:915
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1334
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1757
+msgid "Go to the previous page"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:659
+#: user-blocker/includes/user_blocker_block_users.php:1680
+#: user-blocker/includes/user_blocker_block_users.php:2352
+#: user-blocker/includes/user_blocker_blocked_users_list.php:200
+#: user-blocker/includes/user_blocker_blocked_users_list.php:918
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1337
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1760
+msgid "of"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:662
+#: user-blocker/includes/user_blocker_block_users.php:1683
+#: user-blocker/includes/user_blocker_block_users.php:2355
+#: user-blocker/includes/user_blocker_blocked_users_list.php:203
+#: user-blocker/includes/user_blocker_blocked_users_list.php:921
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1340
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1763
+msgid "Go to the next page"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:663
+#: user-blocker/includes/user_blocker_block_users.php:1684
+#: user-blocker/includes/user_blocker_block_users.php:2356
+#: user-blocker/includes/user_blocker_blocked_users_list.php:204
+#: user-blocker/includes/user_blocker_blocked_users_list.php:922
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1341
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1764
+msgid "Go to the last page"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:677
+#: user-blocker/includes/user_blocker_block_users.php:1698
+#: user-blocker/includes/user_blocker_block_users.php:2370
+#: user-blocker/includes/user_blocker_blocked_users_list.php:211
+#: user-blocker/includes/user_blocker_blocked_users_list.php:929
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1348
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1771
+msgid "Select Role: "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:679
+#: user-blocker/includes/user_blocker_block_users.php:1700
+#: user-blocker/includes/user_blocker_block_users.php:2372
+#: user-blocker/includes/user_blocker_blocked_users_list.php:213
+#: user-blocker/includes/user_blocker_blocked_users_list.php:931
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1350
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1773
+msgid "All Roles"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:702
+#: user-blocker/includes/user_blocker_block_users.php:1723
+#: user-blocker/includes/user_blocker_block_users.php:2395
+#: user-blocker/includes/user_blocker_blocked_users_list.php:231
+#: user-blocker/includes/user_blocker_blocked_users_list.php:949
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1368
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1794
+msgid "username or email or first name"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:703
+#: user-blocker/includes/user_blocker_block_users.php:1724
+#: user-blocker/includes/user_blocker_block_users.php:2396
+#: user-blocker/includes/user_blocker_blocked_users_list.php:232
+#: user-blocker/includes/user_blocker_blocked_users_list.php:950
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1369
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1795
+msgid "Search"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:704
+#: user-blocker/includes/user_blocker_block_users.php:1725
+#: user-blocker/includes/user_blocker_block_users.php:2397
+#: user-blocker/includes/user_blocker_blocked_users_list.php:233
+#: user-blocker/includes/user_blocker_blocked_users_list.php:287
+#: user-blocker/includes/user_blocker_blocked_users_list.php:546
+#: user-blocker/includes/user_blocker_blocked_users_list.php:951
+#: user-blocker/includes/user_blocker_blocked_users_list.php:991
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1118
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1370
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1407
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1517
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1796
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1837
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1954
+msgid "Reset"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:731
+#: user-blocker/includes/user_blocker_block_users.php:740
+#: user-blocker/includes/user_blocker_block_users.php:985
+#: user-blocker/includes/user_blocker_block_users.php:1022
+msgid "Block Time"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:732
+#: user-blocker/includes/user_blocker_block_users.php:741
+#: user-blocker/includes/user_blocker_block_users.php:986
+#: user-blocker/includes/user_blocker_block_users.php:1023
+#: user-blocker/includes/user_blocker_block_users.php:1312
+#: user-blocker/includes/user_blocker_block_users.php:1753
+#: user-blocker/includes/user_blocker_block_users.php:1762
+#: user-blocker/includes/user_blocker_block_users.php:1871
+#: user-blocker/includes/user_blocker_block_users.php:1908
+#: user-blocker/includes/user_blocker_block_users.php:2010
+#: user-blocker/includes/user_blocker_block_users.php:2427
+#: user-blocker/includes/user_blocker_block_users.php:2436
+#: user-blocker/includes/user_blocker_block_users.php:2541
+#: user-blocker/includes/user_blocker_block_users.php:2578
+#: user-blocker/includes/user_blocker_block_users.php:2667
+msgid "Block Message"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:733
+#: user-blocker/includes/user_blocker_block_users.php:742
+#: user-blocker/includes/user_blocker_block_users.php:987
+#: user-blocker/includes/user_blocker_block_users.php:1024
+#: user-blocker/includes/user_blocker_block_users.php:1754
+#: user-blocker/includes/user_blocker_block_users.php:1763
+#: user-blocker/includes/user_blocker_block_users.php:1872
+#: user-blocker/includes/user_blocker_block_users.php:1909
+#: user-blocker/includes/user_blocker_block_users.php:2428
+#: user-blocker/includes/user_blocker_block_users.php:2437
+#: user-blocker/includes/user_blocker_block_users.php:2543
+#: user-blocker/includes/user_blocker_block_users.php:2580
+msgid "Action"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:790
+#: user-blocker/includes/user_blocker_block_users.php:1080
+#: user-blocker/includes/user_blocker_block_users.php:1265
+#: user-blocker/includes/user_blocker_blocked_users_list.php:243
+#: user-blocker/includes/user_blocker_blocked_users_list.php:256
+#: user-blocker/includes/user_blocker_blocked_users_list.php:491
+#: user-blocker/includes/user_blocker_blocked_users_list.php:521
+#: user-blocker/user_blocker.php:471
+#: user-blocker/user_blocker.php:537
+msgid "Sunday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:791
+#: user-blocker/includes/user_blocker_block_users.php:1081
+#: user-blocker/includes/user_blocker_block_users.php:1266
+#: user-blocker/includes/user_blocker_blocked_users_list.php:244
+#: user-blocker/includes/user_blocker_blocked_users_list.php:257
+#: user-blocker/includes/user_blocker_blocked_users_list.php:492
+#: user-blocker/includes/user_blocker_blocked_users_list.php:522
+#: user-blocker/user_blocker.php:472
+#: user-blocker/user_blocker.php:538
+msgid "Monday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:792
+#: user-blocker/includes/user_blocker_block_users.php:1082
+#: user-blocker/includes/user_blocker_block_users.php:1267
+#: user-blocker/includes/user_blocker_blocked_users_list.php:245
+#: user-blocker/includes/user_blocker_blocked_users_list.php:258
+#: user-blocker/includes/user_blocker_blocked_users_list.php:493
+#: user-blocker/includes/user_blocker_blocked_users_list.php:523
+#: user-blocker/user_blocker.php:473
+#: user-blocker/user_blocker.php:539
+msgid "Tuesday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:793
+#: user-blocker/includes/user_blocker_block_users.php:1083
+#: user-blocker/includes/user_blocker_block_users.php:1268
+#: user-blocker/includes/user_blocker_blocked_users_list.php:246
+#: user-blocker/includes/user_blocker_blocked_users_list.php:259
+#: user-blocker/includes/user_blocker_blocked_users_list.php:494
+#: user-blocker/includes/user_blocker_blocked_users_list.php:524
+#: user-blocker/user_blocker.php:474
+#: user-blocker/user_blocker.php:540
+msgid "Wednesday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:794
+#: user-blocker/includes/user_blocker_block_users.php:1084
+#: user-blocker/includes/user_blocker_block_users.php:1269
+#: user-blocker/includes/user_blocker_blocked_users_list.php:247
+#: user-blocker/includes/user_blocker_blocked_users_list.php:260
+#: user-blocker/includes/user_blocker_blocked_users_list.php:495
+#: user-blocker/includes/user_blocker_blocked_users_list.php:525
+#: user-blocker/user_blocker.php:475
+#: user-blocker/user_blocker.php:541
+msgid "Thursday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:795
+#: user-blocker/includes/user_blocker_block_users.php:1085
+#: user-blocker/includes/user_blocker_block_users.php:1270
+#: user-blocker/includes/user_blocker_blocked_users_list.php:248
+#: user-blocker/includes/user_blocker_blocked_users_list.php:261
+#: user-blocker/includes/user_blocker_blocked_users_list.php:496
+#: user-blocker/includes/user_blocker_blocked_users_list.php:526
+#: user-blocker/user_blocker.php:476
+#: user-blocker/user_blocker.php:542
+msgid "Friday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:796
+#: user-blocker/includes/user_blocker_block_users.php:1086
+#: user-blocker/includes/user_blocker_block_users.php:1271
+#: user-blocker/includes/user_blocker_blocked_users_list.php:249
+#: user-blocker/includes/user_blocker_blocked_users_list.php:262
+#: user-blocker/includes/user_blocker_blocked_users_list.php:497
+#: user-blocker/includes/user_blocker_blocked_users_list.php:527
+#: user-blocker/user_blocker.php:477
+#: user-blocker/user_blocker.php:543
+msgid "Saturday"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:807
+#: user-blocker/includes/user_blocker_block_users.php:815
+#: user-blocker/includes/user_blocker_block_users.php:825
+#: user-blocker/includes/user_blocker_block_users.php:833
+#: user-blocker/includes/user_blocker_block_users.php:843
+#: user-blocker/includes/user_blocker_block_users.php:851
+#: user-blocker/includes/user_blocker_block_users.php:861
+#: user-blocker/includes/user_blocker_block_users.php:869
+#: user-blocker/includes/user_blocker_block_users.php:879
+#: user-blocker/includes/user_blocker_block_users.php:887
+#: user-blocker/includes/user_blocker_block_users.php:897
+#: user-blocker/includes/user_blocker_block_users.php:905
+#: user-blocker/includes/user_blocker_block_users.php:915
+#: user-blocker/includes/user_blocker_block_users.php:923
+#: user-blocker/includes/user_blocker_block_users.php:1097
+#: user-blocker/includes/user_blocker_block_users.php:1105
+#: user-blocker/includes/user_blocker_block_users.php:1115
+#: user-blocker/includes/user_blocker_block_users.php:1123
+#: user-blocker/includes/user_blocker_block_users.php:1133
+#: user-blocker/includes/user_blocker_block_users.php:1141
+#: user-blocker/includes/user_blocker_block_users.php:1151
+#: user-blocker/includes/user_blocker_block_users.php:1159
+#: user-blocker/includes/user_blocker_block_users.php:1169
+#: user-blocker/includes/user_blocker_block_users.php:1177
+#: user-blocker/includes/user_blocker_block_users.php:1187
+#: user-blocker/includes/user_blocker_block_users.php:1195
+#: user-blocker/includes/user_blocker_block_users.php:1205
+#: user-blocker/includes/user_blocker_block_users.php:1213
+#: user-blocker/includes/user_blocker_block_users.php:1803
+#: user-blocker/includes/user_blocker_block_users.php:1949
+#: user-blocker/includes/user_blocker_blocked_users_list.php:300
+#: user-blocker/includes/user_blocker_blocked_users_list.php:308
+#: user-blocker/includes/user_blocker_blocked_users_list.php:311
+#: user-blocker/includes/user_blocker_blocked_users_list.php:322
+#: user-blocker/includes/user_blocker_blocked_users_list.php:330
+#: user-blocker/includes/user_blocker_blocked_users_list.php:333
+#: user-blocker/includes/user_blocker_blocked_users_list.php:344
+#: user-blocker/includes/user_blocker_blocked_users_list.php:352
+#: user-blocker/includes/user_blocker_blocked_users_list.php:355
+#: user-blocker/includes/user_blocker_blocked_users_list.php:366
+#: user-blocker/includes/user_blocker_blocked_users_list.php:374
+#: user-blocker/includes/user_blocker_blocked_users_list.php:377
+#: user-blocker/includes/user_blocker_blocked_users_list.php:388
+#: user-blocker/includes/user_blocker_blocked_users_list.php:396
+#: user-blocker/includes/user_blocker_blocked_users_list.php:399
+#: user-blocker/includes/user_blocker_blocked_users_list.php:410
+#: user-blocker/includes/user_blocker_blocked_users_list.php:418
+#: user-blocker/includes/user_blocker_blocked_users_list.php:421
+#: user-blocker/includes/user_blocker_blocked_users_list.php:432
+#: user-blocker/includes/user_blocker_blocked_users_list.php:440
+#: user-blocker/includes/user_blocker_blocked_users_list.php:443
+#: user-blocker/includes/user_blocker_blocked_users_list.php:563
+#: user-blocker/includes/user_blocker_blocked_users_list.php:571
+#: user-blocker/includes/user_blocker_blocked_users_list.php:574
+#: user-blocker/includes/user_blocker_blocked_users_list.php:585
+#: user-blocker/includes/user_blocker_blocked_users_list.php:593
+#: user-blocker/includes/user_blocker_blocked_users_list.php:596
+#: user-blocker/includes/user_blocker_blocked_users_list.php:607
+#: user-blocker/includes/user_blocker_blocked_users_list.php:615
+#: user-blocker/includes/user_blocker_blocked_users_list.php:618
+#: user-blocker/includes/user_blocker_blocked_users_list.php:629
+#: user-blocker/includes/user_blocker_blocked_users_list.php:637
+#: user-blocker/includes/user_blocker_blocked_users_list.php:640
+#: user-blocker/includes/user_blocker_blocked_users_list.php:651
+#: user-blocker/includes/user_blocker_blocked_users_list.php:659
+#: user-blocker/includes/user_blocker_blocked_users_list.php:662
+#: user-blocker/includes/user_blocker_blocked_users_list.php:673
+#: user-blocker/includes/user_blocker_blocked_users_list.php:681
+#: user-blocker/includes/user_blocker_blocked_users_list.php:684
+#: user-blocker/includes/user_blocker_blocked_users_list.php:695
+#: user-blocker/includes/user_blocker_blocked_users_list.php:703
+#: user-blocker/includes/user_blocker_blocked_users_list.php:706
+#: user-blocker/includes/user_blocker_common_functions.php:442
+#: user-blocker/includes/user_blocker_common_functions.php:450
+msgid "not set"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:812
+#: user-blocker/includes/user_blocker_block_users.php:830
+#: user-blocker/includes/user_blocker_block_users.php:848
+#: user-blocker/includes/user_blocker_block_users.php:866
+#: user-blocker/includes/user_blocker_block_users.php:881
+#: user-blocker/includes/user_blocker_block_users.php:902
+#: user-blocker/includes/user_blocker_block_users.php:920
+#: user-blocker/includes/user_blocker_block_users.php:1102
+#: user-blocker/includes/user_blocker_block_users.php:1120
+#: user-blocker/includes/user_blocker_block_users.php:1138
+#: user-blocker/includes/user_blocker_block_users.php:1156
+#: user-blocker/includes/user_blocker_block_users.php:1174
+#: user-blocker/includes/user_blocker_block_users.php:1192
+#: user-blocker/includes/user_blocker_block_users.php:1210
+#: user-blocker/includes/user_blocker_blocked_users_list.php:305
+#: user-blocker/includes/user_blocker_blocked_users_list.php:327
+#: user-blocker/includes/user_blocker_blocked_users_list.php:349
+#: user-blocker/includes/user_blocker_blocked_users_list.php:371
+#: user-blocker/includes/user_blocker_blocked_users_list.php:393
+#: user-blocker/includes/user_blocker_blocked_users_list.php:415
+#: user-blocker/includes/user_blocker_blocked_users_list.php:437
+#: user-blocker/includes/user_blocker_blocked_users_list.php:568
+#: user-blocker/includes/user_blocker_blocked_users_list.php:590
+#: user-blocker/includes/user_blocker_blocked_users_list.php:612
+#: user-blocker/includes/user_blocker_blocked_users_list.php:634
+#: user-blocker/includes/user_blocker_blocked_users_list.php:656
+#: user-blocker/includes/user_blocker_blocked_users_list.php:678
+#: user-blocker/includes/user_blocker_blocked_users_list.php:700
+msgid " to "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:974
+#: user-blocker/includes/user_blocker_block_users.php:1011
+#: user-blocker/includes/user_blocker_block_users.php:1859
+#: user-blocker/includes/user_blocker_block_users.php:1896
+#: user-blocker/includes/user_blocker_block_users.php:2530
+#: user-blocker/includes/user_blocker_block_users.php:2567
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1052
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1088
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1455
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1490
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1890
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1926
+msgid "Name"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:980
+#: user-blocker/includes/user_blocker_block_users.php:1017
+#: user-blocker/includes/user_blocker_block_users.php:1865
+#: user-blocker/includes/user_blocker_block_users.php:1902
+#: user-blocker/includes/user_blocker_block_users.php:2536
+#: user-blocker/includes/user_blocker_block_users.php:2573
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1058
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1094
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1461
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1496
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1896
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1932
+msgid "Email"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1061
+msgid "view"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1070
+#: user-blocker/includes/user_blocker_block_users.php:1812
+msgid "edit"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1231
+#: user-blocker/includes/user_blocker_block_users.php:1820
+#: user-blocker/includes/user_blocker_block_users.php:2644
+#: user-blocker/includes/user_blocker_blocked_users_list.php:722
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1019
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1024
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1422
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1427
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1857
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1862
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1977
+msgid "No records found."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1257
+msgid "Block Time "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1276
+#: user-blocker/includes/user_blocker_block_users.php:1281
+#: user-blocker/includes/user_blocker_block_users.php:1286
+#: user-blocker/includes/user_blocker_block_users.php:1291
+#: user-blocker/includes/user_blocker_block_users.php:1296
+#: user-blocker/includes/user_blocker_block_users.php:1301
+#: user-blocker/includes/user_blocker_block_users.php:1306
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1001
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1134
+#: user-blocker/user_blocker.php:279
+#: user-blocker/user_blocker.php:495
+#: user-blocker/user_blocker.php:561
+msgid "to"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1311
+msgid "Apply to all"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1319
+#: user-blocker/includes/user_blocker_block_users.php:2679
+msgid "<b>Note</b>: If you will not type message, default message will be "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1331
+#: user-blocker/includes/user_blocker_block_users.php:2027
+#: user-blocker/includes/user_blocker_block_users.php:2691
+msgid "Cancel"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1522
+msgid "Selected users have beeen blocked succeefully."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1535
+msgid "Please enter valid block date."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1643
+msgid "Block Users By Date"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1674
+#: user-blocker/includes/user_blocker_block_users.php:2346
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1754
+msgid "Items"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1752
+#: user-blocker/includes/user_blocker_block_users.php:1761
+#: user-blocker/includes/user_blocker_block_users.php:1870
+#: user-blocker/includes/user_blocker_block_users.php:1907
+#: user-blocker/includes/user_blocker_block_users.php:1972
+#: user-blocker/includes/user_blocker_blocked_users_list.php:961
+#: user-blocker/includes/user_blocker_blocked_users_list.php:968
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1063
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1099
+msgid "Block Date"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1801
+#, php-format
+msgid "%s to %s"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1965
+msgid "No records Founds."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:1984
+msgid "This user is blocked for below time:"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2003
+msgid " To "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2016
+msgid ""
+"<b>Note</b>: If you will not type message, default message will be 'You are "
+"temporary blocked.'"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2054
+msgid "Block User"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2069
+msgid "You are permanently Blocked."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2107
+msgid "Update Blocked User"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2313
+msgid "Block Users Permanently"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_block_users.php:2426
+#: user-blocker/includes/user_blocker_block_users.php:2435
+#: user-blocker/includes/user_blocker_block_users.php:2542
+#: user-blocker/includes/user_blocker_block_users.php:2579
+msgid "Status"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:153
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1717
+#: user-blocker/user_blocker.php:54
+msgid "Blocked User list"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:171
+#: user-blocker/includes/user_blocker_blocked_users_list.php:889
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1308
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1731
+msgid "Blocked User List By Time"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:172
+#: user-blocker/includes/user_blocker_blocked_users_list.php:890
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1309
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1732
+msgid "Blocked User List By Date"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:173
+#: user-blocker/includes/user_blocker_blocked_users_list.php:891
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1310
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1733
+msgid "Blocked User List Permanently"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:174
+#: user-blocker/includes/user_blocker_blocked_users_list.php:892
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1311
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1734
+msgid "Blocked User List"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:185
+#: user-blocker/includes/user_blocker_blocked_users_list.php:903
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1322
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1745
+msgid "Users"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:186
+#: user-blocker/includes/user_blocker_blocked_users_list.php:904
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1323
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1746
+msgid "Roles"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:194
+msgid "items"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:250
+#: user-blocker/includes/user_blocker_blocked_users_list.php:263
+#: user-blocker/includes/user_blocker_blocked_users_list.php:498
+#: user-blocker/includes/user_blocker_blocked_users_list.php:528
+#: user-blocker/includes/user_blocker_blocked_users_list.php:962
+#: user-blocker/includes/user_blocker_blocked_users_list.php:969
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1064
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1100
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1380
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1386
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1466
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1501
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1806
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1813
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1901
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1937
+msgid "Message"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:286
+#: user-blocker/includes/user_blocker_blocked_users_list.php:545
+#: user-blocker/includes/user_blocker_blocked_users_list.php:991
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1117
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1407
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1517
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1837
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1954
+msgid "Reset this item"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:459
+#: user-blocker/includes/user_blocker_blocked_users_list.php:464
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1537
+msgid "No records Found."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:473
+#: user-blocker/includes/user_blocker_blocked_users_list.php:503
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1033
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1069
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1436
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1471
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1871
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1907
+msgid "S.N."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:875
+#: user-blocker/user_blocker.php:55
+msgid "Date Wise Blocked User list"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1153
+msgid "No Record Found."
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1294
+msgid "Permanently Blocked User list"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1807
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1814
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1902
+#: user-blocker/includes/user_blocker_blocked_users_list.php:1938
+msgid "Block Data"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:14
+#: user-blocker/includes/user_blocker_common_functions.php:25
+msgid "News From Solwin Infotech"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:36
+msgid "Latest Product"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:40
+msgid "Something went wrong"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:102
+msgid "If you like "
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:103
+#: user-blocker/user_blocker.php:51
+msgid "User Blocker"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:104
+msgid "please leave us a"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:106
+msgid "rating. A huge thank you from Solwin Infotech in advance!"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:272
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:274
+msgid "Enjoyed this plugin?"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:275
+msgid " You can help by"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:277
+msgid " rating this plugin on wordpress.org"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:281
+msgid "Downloads:"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:292
+msgid "Our Other Works"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:297
+msgid "30+ Beautiful Blog Templates"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:298
+msgid "5 Unique Timeline Templates"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:299
+msgid "100+ Blog Layout Variations"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:300
+msgid "Single Post Design options"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:301
+msgid "Category, Tag, Author Layouts"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:302
+msgid "Post Type & Taxonomy Filter"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:303
+msgid "800+ Google Font Support"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:304
+msgid "600+ Font Awesome Icons Support"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:310
+msgid "Buy Now on Codecanyon"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:316
+msgid "Need Support?"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:318
+msgid "Check out the"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:319
+msgid "FAQs"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:320
+msgid "and"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:321
+msgid "Support Forums"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:326
+msgid "Share & Follow Us"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:447
+#, php-format
+msgid " to %s"
+msgstr ""
+
+#: user-blocker/includes/user_blocker_common_functions.php:491
+msgid "Settings"
+msgstr ""
+
+#: user-blocker/user_blocker.php:52
+msgid "Block User Date Wise"
+msgstr ""
+
+#: user-blocker/user_blocker.php:52
+msgid "Date Wise Block User"
+msgstr ""
+
+#: user-blocker/user_blocker.php:53
+msgid "Permanently Block User"
+msgstr ""
+
+#: user-blocker/user_blocker.php:56
+msgid "Permanent Blocked User list"
+msgstr ""
+
+#: user-blocker/user_blocker.php:57
+msgid "All Type Blocked User list"
+msgstr ""
+
+#: user-blocker/user_blocker.php:151
+#: user-blocker/user_blocker.php:184
+#, php-format
+msgid "<strong>ERROR</strong>:%s"
+msgstr ""
+
+#: user-blocker/user_blocker.php:406
+#: user-blocker/user_blocker.php:432
+msgid "Permanently Blocked"
+msgstr ""
+
+#: user-blocker/user_blocker.php:411
+#: user-blocker/user_blocker.php:437
+msgid "View Block Date Time"
+msgstr ""
+
+#: user-blocker/user_blocker.php:467
+#: user-blocker/user_blocker.php:533
+msgid "Blocked Day Detail"
+msgstr ""
+
+#: user-blocker/user_blocker.php:494
+#: user-blocker/user_blocker.php:560
+msgid "Blocked Date Detail:"
+msgstr ""
+
+#: user-blocker/user_blocker.php:672
+#: user-blocker/user_blocker.php:704
+msgid "Login Failed!"
+msgstr ""
+
+#: user-blocker/user_blocker.php:721
+msgid "Documentation"
+msgstr ""

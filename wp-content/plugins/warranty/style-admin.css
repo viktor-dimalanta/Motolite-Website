@@ -1,0 +1,60 @@
+.widefat {width: auto;}
+.ss-list-width {min-width:10%}
+.ss-form-width {width:100%}
+.ss-th-width {width:25%}
+.ss-field-width {width:75%}
+
+.rounded {
+	border-radius: .5em;
+}
+.shadow {
+	-moz-box-shadow:    0px 0px 5px 1px #b1a8a8;
+    -webkit-box-shadow: 0px 0px 5px 1px #b1a8a8;
+	box-shadow: 0px 0px 5px 1px #b1a8a8;
+}
+
+table.dataTable.no-footer {
+	/*border-bottom: none !important;*/
+	border: 1px solid #ccc;
+}
+th.sorting {
+    background: #e6e6e6;
+    color: black;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.sorting_asc{
+
+ 	 background: #e6e6e6;
+    color: black;
+    text-transform: uppercase;
+    font-size: 11px;
+ }
+ .sorting_disabled{
+
+ 	 background: #e6e6e6;
+    color: black;
+    text-transform: uppercase;
+    font-size: 11px;
+ }
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.btn-right {
+	margin: 20px 20px 0 0;
+}
+.search-box {
+	background: white;
+	padding: 0 80px 20px;
+
+}
+.filter_encoder{
+	float: right;
+}
+#warranty_tbl_wrapper > div.dt-buttons {
+	float: right;
+	margin-top: 5px;
+}
